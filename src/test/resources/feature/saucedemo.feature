@@ -18,6 +18,7 @@ Feature: Buy product at saucedemo.com
     Examples:
       |product|firstname|lastname|postalCode|
       ##@externaldata@./src/test/resources/datadriven/product_test_data.xlsx@Datos@1
+   |Sauce Labs Backpack,Sauce Labs Bike Light,Sauce Labs Bolt T-Shirt,Sauce Labs Fleece Jacket,Sauce Labs Onesie,Test.allTheThings() T-Shirt (Red)   |Cristian   |Hernandez   |55450|
 
 
   @Cancel_Purchase
@@ -32,6 +33,7 @@ Feature: Buy product at saucedemo.com
     Examples:
       |product|firstname|lastname|postalCode|
       ##@externaldata@./src/test/resources/datadriven/product_test_data.xlsx@Datos@2
+   |Sauce Labs Backpack,Sauce Labs Bike Light,Sauce Labs Bolt T-Shirt   |Maria   |Sierra   |55450|
 
    
 
