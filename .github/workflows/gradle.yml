@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: gradle clean test
+      run: gradle clean test aggregate --info
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.1
