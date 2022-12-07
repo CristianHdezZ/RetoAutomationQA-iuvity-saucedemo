@@ -42,8 +42,8 @@ la prueba
 Este proyecto cuenta con la ejecución de un feature:
 
 - **saucedemo.feature**: En este feature se realiza la ejecución de dos escenario donde:
-  1. Se agregan 6 prodcutos en un carro de compra, para una compra exitosa en la web **https://www.saucedemo.com/** a través del una data de prueba que se carga por medio de un excel.
-  2. Se realiza el flujo de agregar prodcutos al carro de compra y luego cancel y remover los productos	
+  1. Se agregan 6 prodcutos en un carro de compra, para una compra exitosa en la web **https://www.saucedemo.com/** a través de una data de prueba que se carga por medio de un excel.
+  2. Se realiza el flujo de agregar prodcutos al carro de compra y luego cancelar y remover los productos	
 
 ---
   
@@ -60,7 +60,7 @@ git clone https://github.com/CristianHdezZ/RetoAutomationQA-iuvity-saucedemo.git
 
 **2. Importar el proyecto**
   
-Para importar el proyecto debe hacerlo desde el IDE de su preferencia seleccionando la carpeta **"RetoAutomationQA-Siggo"** como un proyecto Gradle. 
+Para importar el proyecto debe hacerlo desde el IDE de su preferencia seleccionando la carpeta **"TestQA-RetoSaucedemo"** como un proyecto Gradle. 
   
   
 **3. Ejecutar el proyecto** 
@@ -77,7 +77,7 @@ gradle clean test aggregate --info
   
 **3.2 A través de IDE** 
   
-Si se desea realizar la ejecución a través del IDE de desarrollo, se debe seleccionar la clase **"compraFalabellaRunner.class o reqresInAPIRunner.class"** y dar clic derecho, seleccionar la opción que permita correr la prueba. 
+Si se desea realizar la ejecución a través del IDE de desarrollo, se debe seleccionar la clase **"SaucedemoRunner"** y dar clic derecho, seleccionar la opción que permita correr la prueba. 
   
 ---
   
